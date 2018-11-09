@@ -1,0 +1,32 @@
+{
+  "name": "urlshortner",
+  "version": "0.0.0",
+  "description": "A simple, smarter and lightweight url shortner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "debug": "DEBUG=* node index.js"
+  },
+  "keywords": [
+    "URL",
+    "Shortner",
+    "URL Shortner",
+    "Short URL"
+  ],
+  "author": "Madhur Jajoo <madhurjajoo@live.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madhur-jajoo/urlshortner.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^4.1.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "helmet": "^3.14.0",
+    "mongoose": "^5.3.6",
+    "randomatic": "^3.1.1"
+  }
+}

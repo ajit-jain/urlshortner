@@ -1,0 +1,17 @@
+
+# Environment File
+.env
+
+# Node
+node_modules/
+*.log
+*.gz
+
+# NPM
+package-lock.json
+
+# Yarn
+yarn.lock
+
+# VSCode
+.vscode/
